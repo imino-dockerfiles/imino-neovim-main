@@ -9,5 +9,5 @@ RUN apk update && \
             nodejs \
             gcc \
             neovim && \    
-    pip3 install pynvim
-#   sh /root/setup/setup.sh
+    pip3 install pynvim && \
+    sh /root/setup/setup.sh
